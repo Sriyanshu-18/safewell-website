@@ -162,7 +162,7 @@ The website is intended to be deployed online so that it can be accessed publicl
 
 Deployment platform: **Render**
 
-Live Website: _Coming Soon_
+Live Website: https://safewell-website.onrender.com/
 
 ---
 
