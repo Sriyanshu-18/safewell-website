@@ -1,0 +1,588 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Discover Safewell, a sanitary napkin brand from Jagatsinghpur, Odisha, connecting menstrual hygiene with meaningful work for women.">
+
+    <meta name="theme-color" content="#fffcf8">
+
+    <title>Safewell | Feel the Freedom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+		  <link rel="stylesheet" th:href="@{/css/style.css?v=3}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    <span aria-hidden="true">✳</span>
+                    A women-centred brand from Odisha
+                </p>
+
+                <h1>
+                    Every pad has a story.
+                    <br>
+                    <em>Every woman</em> deserves an opportunity.
+                </h1>
+
+                <p class="hero-lede">
+                    Safewell brings together menstrual hygiene
+                    and meaningful work, with a story rooted in
+                    Jagatsinghpur, Odisha.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a class="button button-primary"
+                       th:href="@{/our-story}">
+                        Discover our story <span>↗</span>
+                    </a>
+
+                    <a class="text-link"
+                       th:href="@{/partnerships}">
+                        Explore partnerships <span>→</span>
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+
+                    <span class="note-icon" aria-hidden="true">✳</span>
+
+                    <span>
+                        <strong>Care with purpose</strong>
+                        <br>
+                        Made with a commitment to dignity and opportunity.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+			<div class="hero-art">
+			    <div class="hero-product-frame">
+			        <img src="/images/safewell-product.png"
+			             alt="Original Safewell Extra Large Sanitary Napkins packet"
+			             class="hero-product-image"
+			             fetchpriority="high">
+			    </div>
+
+			    <div class="floating-card">
+			        <span class="floating-icon" aria-hidden="true">♡</span>
+			        <span>
+			            <strong>Women at the heart</strong>
+			            <small>Paid employees. Skilled work. Shared purpose.</small>
+			        </span>
+			    </div>
+
+			    <div class="hero-stamp">
+			        <span>ROOTED IN</span>
+			        <strong>ODISHA</strong>
+			        <span>MADE WITH PURPOSE</span>
+			    </div>
+			</div>
+
+    
+
+
+        <div class="hero-bottom container">
+
+            <span>CARE</span>
+            <i></i>
+            <span>DIGNITY</span>
+            <i></i>
+            <span>OPPORTUNITY</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRAND INTRODUCTION -->
+    <section class="intro-section section-pad">
+
+        <div class="container intro-grid">
+
+            <div>
+
+                <p class="eyebrow">More than a product</p>
+
+                <h2>
+                    Care for women.
+                    <br>
+                    <em>Opportunity for women.</em>
+                </h2>
+
+            </div>
+
+            <div class="intro-text">
+
+                <p>
+                    Safewell is a sanitary napkin brand of
+                    S.S. Industries, led by proprietor
+                    Anjana Sahoo. Its story brings together
+                    a practical everyday need and a belief
+                    that women deserve access to menstrual
+                    hygiene as well as opportunities to earn
+                    through their skills.
+                </p>
+
+                <a class="text-link" th:href="@{/about}">
+                    Get to know Safewell <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section class="story-band section-pad">
+
+        <div class="container story-grid">
+
+            <div class="story-photo story-real-photo">
+
+                <img src="/images/women-awareness.png"
+                     alt="Women's health awareness group associated with community work"
+                     loading="lazy">
+
+                <span class="photo-caption">
+                    Community, awareness and a shared purpose
+                </span>
+
+            </div>
+
+
+            <div class="story-content">
+
+                <p class="eyebrow">The story behind Safewell</p>
+
+                <h2>
+                    A vision shaped by
+                    <em>care and action.</em>
+                </h2>
+
+                <p>
+                    Through her social-work journey,
+                    Anjana Sahoo became interested in how
+                    women's well-being and livelihood
+                    opportunities can support one another.
+                </p>
+
+                <p>
+                    Following training connected with the
+                    Sanitary Napkin Manufacturing Project,
+                    she helped build a business around
+                    sanitary napkin production and paid
+                    work for women.
+                </p>
+
+                <p>
+                    Today, SHG women are paid employees
+                    who operate machinery and handle
+                    packaging as part of the work
+                    behind Safewell.
+                </p>
+
+                <a class="button button-outline"
+                   th:href="@{/our-story}">
+                    Read our story <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WOMEN BEHIND SAFEWELL -->
+    <section class="women-section section-pad">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">The people behind the product</p>
+
+                    <h2>
+                        Real work.
+                        <em>Real opportunity.</em>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Safewell's story is also the story of women
+                    whose skills and work help bring each
+                    packet to life.
+                </p>
+
+            </div>
+
+
+            <div class="three-cards">
+
+                <article class="feature-card">
+
+                    <div class="card-number">01</div>
+
+                    <div class="card-symbol">✳</div>
+
+                    <h3>Skills in action</h3>
+
+                    <p>
+                        Women employees operate machinery
+                        and take part in packaging at
+                        the manufacturing unit.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card card-featured">
+
+                    <div class="card-number">02</div>
+
+                    <div class="card-symbol">♡</div>
+
+                    <h3>Paid employment</h3>
+
+                    <p>
+                        The women involved are paid employees,
+                        recognising their work as a meaningful
+                        part of the business.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="card-number">03</div>
+
+                    <div class="card-symbol">↗</div>
+
+                    <h3>A shared purpose</h3>
+
+                    <p>
+                        Safewell aims to bring together
+                        menstrual hygiene, local enterprise
+                        and opportunities for women.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="center-action">
+
+                <a class="text-link" th:href="@{/women}">
+                    Meet the women behind Safewell <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MANUFACTURING -->
+    <section class="manufacturing-section section-pad">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">Behind the process</p>
+
+                    <h2>
+                        From production
+                        <em>to packaging.</em>
+                    </h2>
+
+                </div>
+
+                <p>
+                    A closer look at the workspace, inventory
+                    and everyday operations behind the
+                    Safewell brand.
+                </p>
+
+            </div>
+
+
+            <div class="manufacturing-grid">
+
+                <article class="manufacturing-card manufacturing-large">
+
+                    <img src="/images/packing-room.png"
+                         alt="Safewell packing room"
+                         loading="lazy">
+
+                    <div class="manufacturing-overlay">
+
+                        <span>01 / OUR WORKSPACE</span>
+
+                        <h3>The packing room</h3>
+
+                        <p>
+                            The space where products are prepared
+                            and packaging work takes place.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="manufacturing-card">
+
+                    <img src="/images/inventory.jpg"
+                         alt="Safewell sanitary napkin inventory"
+                         loading="lazy">
+
+                    <div class="manufacturing-overlay">
+
+                        <span>02 / OUR PRODUCTS</span>
+
+                        <h3>Inventory and preparation</h3>
+
+                        <p>
+                            A glimpse into Safewell's products
+                            and inventory.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="manufacturing-note">
+
+                <span aria-hidden="true">✳</span>
+
+                <p>
+                    Every stage of the process is part of
+                    a larger journey built around care,
+                    work and opportunity.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCT -->
+    <section class="product-section section-pad">
+
+        <div class="container product-grid">
+
+            <div class="product-visual actual-product-visual">
+
+                <img src="/images/safewell-product.png"
+                     alt="Safewell Extra Large Sanitary Napkins product packaging"
+                     loading="lazy">
+
+                <span class="product-image-label">
+                    THE SAFEWELL PRODUCT
+                </span>
+
+            </div>
+
+
+            <div class="product-copy">
+
+                <p class="eyebrow">Meet the product</p>
+
+                <h2>
+                    Everyday care,
+                    <br>
+                    <em>with a bigger story.</em>
+                </h2>
+
+                <p>
+                    Meet Safewell Extra Large Sanitary Napkins,
+                    presented in a convenient six-piece packet.
+                    For exact product specifications, packaging
+                    details and availability, please contact
+                    the Safewell team.
+                </p>
+
+
+                <ul class="check-list">
+
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        Extra Large size
+                    </li>
+
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        6 pieces per packet
+                    </li>
+
+                    <li>
+                        <span aria-hidden="true">✓</span>
+                        A brand of S.S. Industries
+                    </li>
+
+                </ul>
+
+
+                <a class="button button-primary"
+                   th:href="@{/product}">
+                    View product information <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VALUES -->
+    <section class="values-section section-pad">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">What we believe in</p>
+
+                    <h2>Our purpose goes beyond a packet.</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="three-cards">
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">♡</div>
+
+                    <h3>Women's well-being</h3>
+
+                    <p>
+                        Supporting conversations around
+                        menstrual hygiene and dignity.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card card-featured">
+
+                    <div class="card-symbol">✳</div>
+
+                    <h3>Livelihood opportunities</h3>
+
+                    <p>
+                        Creating employment through women's
+                        participation in production.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">↗</div>
+
+                    <h3>Community</h3>
+
+                    <p>
+                        Growing from local roots with a
+                        purpose to serve communities.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PARTNERSHIPS -->
+    <section class="partner-strip section-pad">
+
+        <div class="container partner-grid">
+
+            <div>
+
+                <p class="eyebrow">Let's work together</p>
+
+                <h2>
+                    Help us take Safewell
+                    <em>further.</em>
+                </h2>
+
+                <p>
+                    We welcome conversations with retailers,
+                    institutions and organisations interested
+                    in discussing Safewell products and
+                    potential partnerships.
+                </p>
+
+            </div>
+
+            <a class="button button-light"
+               th:href="@{/partnerships}">
+                Discuss a partnership <span>↗</span>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Discover the story behind Safewell, Anjana Sahoo's vision and the women involved in its manufacturing journey in Odisha.">
+
+    <meta name="theme-color" content="#fffcf8">
+
+    <title>Our Story | Safewell</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+
+            <p class="eyebrow">OUR STORY</p>
+
+            <h1>
+                A journey shaped by
+                <em>service, skills and possibility.</em>
+            </h1>
+
+            <p>
+                Safewell grew from a desire to connect
+                women's well-being with opportunities
+                for meaningful work.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- THE VISION -->
+	<section class="section-pad">
+	    <div class="container"
+	         style="display:grid !important;
+	                grid-template-columns:minmax(0, 1.1fr) minmax(0, 0.9fr) !important;
+	                gap:50px;
+	                align-items:center;
+	                width:100%;
+	                max-width:1160px;
+	                margin:0 auto;">
+
+	        <div style="width:100%; height:380px; overflow:hidden;">
+	            <img src="/images/women-awareness.png"
+	                 alt="Women associated with Safewell"
+	                 style="width:100%; height:100%; object-fit:cover; display:block;">
+	        </div>
+
+	        <div style="min-width:0; width:100%;">
+	            <p class="eyebrow">The Vision</p>
+
+	            <h2>
+	                From social work to
+	                <em>local enterprise.</em>
+	            </h2>
+
+	            <p>
+	                Anjana Sahoo, proprietor of S.S. Industries,
+	                has a background in social work and a continuing
+	                interest in women's empowerment through
+	                community initiatives.
+	            </p>
+
+	            <p>
+	                Her work through Tejaswinee Charitable Trust
+	                has informed a wider interest in dignity,
+	                well-being and opportunity.
+	            </p>
+
+	            <p>
+	                After training connected with the Sanitary
+	                Napkin Manufacturing Project, the idea took
+	                shape to produce sanitary pads while creating
+	                paid employment for SHG women.
+	            </p>
+
+	            <p>
+	                At the Safewell manufacturing unit in
+	                Jagatsinghpur, women employees operate
+	                machinery and handle packaging.
+	            </p>
+
+	            <p>
+	                Safewell's journey is ongoing. The aim is to
+	                build trust with customers and partners while
+	                recognising the people behind the product.
+	            </p>
+	        </div>
+
+	    </div>
+	</section>
+    <!-- THE JOURNEY -->
+    <section class="values-section section-pad">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">How the idea took shape</p>
+
+                    <h2>
+                        A journey with
+                        <em>a purpose.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    The Safewell story connects community
+                    experience, learning and the everyday
+                    work of building a local enterprise.
+                </p>
+
+            </div>
+
+
+            <div class="three-cards">
+
+                <article class="feature-card">
+
+                    <div class="card-number">01</div>
+                    <div class="card-symbol">♡</div>
+
+                    <h3>A foundation in service</h3>
+
+                    <p>
+                        Anjana Sahoo's social-work background
+                        and community initiatives helped
+                        shape her interest in women's
+                        well-being and empowerment.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card card-featured">
+
+                    <div class="card-number">02</div>
+                    <div class="card-symbol">✳</div>
+
+                    <h3>Learning and an idea</h3>
+
+                    <p>
+                        Training connected with the
+                        Sanitary Napkin Manufacturing Project
+                        helped bring the idea of sanitary
+                        napkin production into focus.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="card-number">03</div>
+                    <div class="card-symbol">↗</div>
+
+                    <h3>Building through participation</h3>
+
+                    <p>
+                        SHG women are paid employees who
+                        contribute to machinery operation
+                        and packaging at the manufacturing unit.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CLOSING MESSAGE -->
+    <section class="quote-section">
+        <div class="container">
+
+            <span aria-hidden="true">“</span>
+
+            <blockquote>
+                Safewell is not only about the product.
+                It is also about the people, the work
+                and the purpose behind it.
+            </blockquote>
+
+            <p>
+                — The story behind Safewell
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- NEXT PAGE -->
+    <section class="section-pad">
+        <div class="container partner-grid">
+
+            <div>
+
+                <p class="eyebrow">The people behind the story</p>
+
+                <h2>
+                    Meet the women
+                    <em>behind Safewell.</em>
+                </h2>
+
+                <p>
+                    Discover the role of SHG women in the
+                    day-to-day work behind the brand.
+                </p>
+
+            </div>
+
+            <a class="button button-primary"
+               th:href="@{/women}">
+                Meet the women <span>↗</span>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>

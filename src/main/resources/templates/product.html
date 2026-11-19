@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Explore Safewell Extra Large Sanitary Napkins. Product information for customers, retailers and institutional partners.">
+
+    <meta name="theme-color" content="#fffcf8">
+
+    <title>Our Product | Safewell</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">OUR PRODUCT</p>
+
+            <h1>
+                Introducing Safewell
+                <em>sanitary napkins.</em>
+            </h1>
+
+            <p>
+                Product information for customers,
+                retailers and institutional partners.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCT DETAILS -->
+
+	<section class="section-pad">
+	    <div class="container"
+	         style="display:grid !important;
+	                grid-template-columns:minmax(0, 1.1fr) minmax(0, 0.9fr) !important;
+	                gap:50px;
+	                align-items:center;
+	                width:100%;
+	                max-width:1160px;
+	                margin:0 auto;">
+
+	        <div style="width:100%; height:380px; padding:15px;
+	                    background:#f7e8ed; display:flex;
+	                    align-items:center; justify-content:center;
+	                    overflow:hidden;">
+
+	            <img src="/images/safewell-product.png"
+	                 alt="Safewell Extra Large Sanitary Napkins"
+	                 style="width:100%; height:100%;
+	                        object-fit:contain; display:block;">
+	        </div>
+
+	        <div style="min-width:0; width:100%;">
+
+	            <p class="eyebrow">Meet Safewell</p>
+
+	            <h2>
+	                Safewell <em>Extra Large</em>
+	                Sanitary Napkins
+	            </h2>
+
+	            <p>
+	                Safewell is a sanitary napkin brand from
+	                S.S. Industries, Jagatsinghpur, Odisha.
+	            </p>
+
+	            <p>
+	                The product is available in a pack of six pieces.
+	            </p>
+
+	            <div class="product-facts">
+	                <div class="product-fact">
+	                    <span>Product</span>
+	                    <strong>Sanitary Napkins</strong>
+	                </div>
+
+	                <div class="product-fact">
+	                    <span>Variant</span>
+	                    <strong>Extra Large</strong>
+	                </div>
+
+	                <div class="product-fact">
+	                    <span>Pack size</span>
+	                    <strong>6 Pieces</strong>
+	                </div>
+
+	                <div class="product-fact">
+	                    <span>Brand</span>
+	                    <strong>Safewell</strong>
+	                </div>
+	            </div>
+
+	            <a class="button button-primary" th:href="@{/contact}">
+	                Enquire about Safewell ↗
+	            </a>
+
+	        </div>
+
+	    </div>
+	</section>
+
+    <!-- PRODUCT INFORMATION -->
+    <section class="story-band section-pad">
+
+        <div class="container content-grid">
+
+            <div>
+
+                <p class="eyebrow">Product information</p>
+
+                <h2>
+                    Clear details.
+                    <em>Direct conversations.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="prose">
+
+                <p>
+                    We want customers, retailers and
+                    institutional partners to have a
+                    clear way to enquire about the
+                    Safewell product.
+                </p>
+
+                <p>
+                    For current availability, pricing,
+                    packaging specifications and
+                    distribution details, please
+                    contact the business directly.
+                </p>
+
+                <p>
+                    Additional product specifications
+                    can be added to this page once
+                    they have been verified against
+                    the actual product packaging
+                    and business records.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BUSINESS ENQUIRIES -->
+    <section class="partner-strip section-pad">
+
+        <div class="container partner-grid">
+
+            <div>
+
+                <p class="eyebrow">Customer and business enquiries</p>
+
+                <h2>
+                    Interested in
+                    <em>Safewell?</em>
+                </h2>
+
+                <p>
+                    Contact S.S. Industries for
+                    product enquiries, retailer
+                    discussions and institutional
+                    partnership opportunities.
+                </p>
+
+            </div>
+
+            <a class="button button-light"
+               th:href="@{/contact}">
+                Contact us <span>↗</span>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>

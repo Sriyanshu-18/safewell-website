@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Explore retail and institutional partnership opportunities with Safewell, a sanitary napkin brand of S.S. Industries in Odisha.">
+
+    <meta name="theme-color" content="#fffcf8">
+
+    <title>Partnerships | Safewell</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">RETAIL & INSTITUTIONAL PARTNERSHIPS</p>
+
+            <h1>
+                Let's explore what we can
+                <em>build together.</em>
+            </h1>
+
+            <p>
+                Safewell welcomes conversations with
+                retailers and institutions interested
+                in the product and potential supply partnerships.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTRODUCTION -->
+    <section class="section-pad">
+
+        <div class="container content-grid">
+
+            <div>
+
+                <p class="eyebrow">Start a conversation</p>
+
+                <h2>
+                    Local relationships.
+                    <br>
+                    <em>Shared purpose.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="prose">
+
+                <p>
+                    Safewell serves local retailers and
+                    institutional partners. We are
+                    interested in connecting with
+                    businesses and organisations that
+                    would like to learn more about
+                    the product.
+                </p>
+
+                <p>
+                    Whether you are exploring retail
+                    availability or discussing a possible
+                    institutional supply arrangement,
+                    we welcome an opportunity to
+                    understand your requirements.
+                </p>
+
+                <p>
+                    Product availability, pricing,
+                    distribution and supply arrangements
+                    can be discussed directly with
+                    S.S. Industries.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PARTNER TYPES -->
+    <section class="story-band section-pad">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">Who can connect with us?</p>
+
+                    <h2>
+                        Let's find the
+                        <em>right way forward.</em>
+                    </h2>
+
+                </div>
+
+                <p>
+                    We welcome enquiries from different
+                    types of customers and potential partners.
+                </p>
+
+            </div>
+
+
+            <div class="partnership-cards">
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">⌂</div>
+
+                    <h3>Retailers</h3>
+
+                    <p>
+                        Discuss local retail availability,
+                        product pack details, pricing
+                        and possible commercial terms.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">▤</div>
+
+                    <h3>Institutions</h3>
+
+                    <p>
+                        Discuss your requirements,
+                        expected quantities and
+                        possible supply arrangements.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHAT WE CAN DISCUSS -->
+    <section class="section-pad">
+
+        <div class="container content-grid">
+
+            <div>
+
+                <p class="eyebrow">Let's understand your needs</p>
+
+                <h2>
+                    Every partnership
+                    <em>starts with a conversation.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="prose">
+
+                <p>
+                    To help us understand your enquiry,
+                    you can share the following details
+                    when contacting the business:
+                </p>
+
+                <div class="info-box">
+
+                    <strong>Useful enquiry details</strong>
+
+                    <span>
+                        Your business or organisation name
+                    </span>
+
+                    <span>
+                        Your location
+                    </span>
+
+                    <span>
+                        Whether your enquiry is for retail
+                        or institutional supply
+                    </span>
+
+                    <span>
+                        Your expected product requirements
+                    </span>
+
+                    <span>
+                        Your preferred contact details
+                    </span>
+
+                </div>
+
+                <p>
+                    The Safewell team can then discuss
+                    availability, pricing and possible
+                    arrangements directly with you.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PARTNERSHIP CTA -->
+    <section class="partner-strip section-pad">
+
+        <div class="container partner-grid">
+
+            <div>
+
+                <p class="eyebrow">Connect with S.S. Industries</p>
+
+                <h2>
+                    Interested in
+                    <em>Safewell?</em>
+                </h2>
+
+                <p>
+                    Get in touch to discuss product
+                    enquiries, retail opportunities
+                    or institutional partnerships.
+                </p>
+
+            </div>
+
+            <a class="button button-light"
+               th:href="@{/contact}">
+                Contact Safewell <span>↗</span>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>

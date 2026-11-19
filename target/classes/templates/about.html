@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Learn about Safewell, a sanitary napkin brand of S.S. Industries based in Jagatsinghpur, Odisha.">
+
+    <meta name="theme-color" content="#fffcf8">
+
+    <title>About Safewell | Feel the Freedom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/header :: header}"></div>
+
+<main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">ABOUT SAFEWELL</p>
+
+            <h1>
+                A brand built around
+                <em>care and purpose.</em>
+            </h1>
+
+            <p>
+                Rooted in Jagatsinghpur, Odisha, Safewell brings
+                together a sanitary napkin brand, local enterprise
+                and meaningful work for women.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHO WE ARE -->
+    <section class="section-pad">
+
+        <div class="container content-grid">
+
+            <div>
+
+                <p class="eyebrow">Who we are</p>
+
+                <h2>
+                    Practical care.
+                    <br>
+                    <em>Human purpose.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="prose">
+
+                <p>
+                    Safewell is a sanitary napkin brand operating
+                    under S.S. Industries, whose proprietor is
+                    Anjana Sahoo. The brand connects an everyday
+                    menstrual-hygiene product with a wider
+                    commitment to women's well-being and employment.
+                </p>
+
+                <p>
+                    The manufacturing unit is located in
+                    Jagatsinghpur, Odisha. SHG women are employed
+                    and contribute to the work by operating
+                    machinery and handling packaging.
+                </p>
+
+                <p>
+                    Safewell serves local retailers and
+                    institutional partners. This website is
+                    intended to share the brand's story and
+                    product information and to help interested
+                    organisations start a conversation with
+                    the business.
+                </p>
+
+
+				<div class="info-box">
+
+				    <h3 class="info-box-title">Business Details</h3>
+
+				    <div class="info-detail">
+				        <span class="info-label">Brand:</span>
+				        <span class="info-value">Safewell</span>
+				    </div>
+
+				    <div class="info-detail">
+				        <span class="info-label">Business:</span>
+				        <span class="info-value">S.S. Industries</span>
+				    </div>
+
+				    <div class="info-detail">
+				        <span class="info-label">Proprietor:</span>
+				        <span class="info-value">Anjana Sahoo</span>
+				    </div>
+
+				    <div class="info-detail">
+				        <span class="info-label">Location:</span>
+				        <span class="info-value">Jagatsinghpur, Odisha, India</span>
+				    </div>
+
+				</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRAND PURPOSE -->
+    <section class="quote-section">
+
+        <div class="container">
+
+            <span aria-hidden="true">“</span>
+
+            <blockquote>
+                When care is paired with opportunity,
+                a product can become part of a bigger story.
+            </blockquote>
+
+            <p>
+                — The spirit behind Safewell
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR APPROACH -->
+    <section class="section-pad">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">Our approach</p>
+
+                    <h2>
+                        Three ideas at the heart
+                        <em>of Safewell.</em>
+                    </h2>
+
+                </div>
+
+                <p>
+                    The brand's identity is shaped by its product,
+                    the people involved in its work and the
+                    community it is rooted in.
+                </p>
+
+            </div>
+
+
+            <div class="three-cards">
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">♡</div>
+
+                    <h3>Menstrual hygiene</h3>
+
+                    <p>
+                        A focus on an everyday product connected
+                        with women's menstrual hygiene and well-being.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card card-featured">
+
+                    <div class="card-symbol">✳</div>
+
+                    <h3>Women's employment</h3>
+
+                    <p>
+                        SHG women contribute as paid employees
+                        through machinery operation and packaging work.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="card-symbol">↗</div>
+
+                    <h3>Local enterprise</h3>
+
+                    <p>
+                        A business rooted in Jagatsinghpur,
+                        Odisha, serving local retailers
+                        and institutional partners.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BUSINESS IDENTITY -->
+    <section class="partner-strip section-pad">
+
+        <div class="container partner-grid">
+
+            <div>
+
+                <p class="eyebrow">A brand of S.S. Industries</p>
+
+                <h2>
+                    Interested in
+                    <em>working with us?</em>
+                </h2>
+
+                <p>
+                    If you are a retailer, institution or
+                    organisation interested in Safewell,
+                    we welcome a conversation.
+                </p>
+
+            </div>
+
+            <a class="button button-light"
+               th:href="@{/contact}">
+                Contact Safewell <span>↗</span>
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>

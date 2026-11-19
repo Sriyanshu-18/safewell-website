@@ -1,0 +1,46 @@
+
+<header class="site-header" th:fragment="header">
+    <div class="container nav-wrap">
+
+        <a th:href="@{/}"
+           class="brand"
+           aria-label="Safewell home">
+
+            <img
+                class="brand-logo"
+                src="/images/safewell-logo.png"
+                alt="Safewell — Feel the Freedom"
+                width="190"
+                height="75">
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="primary-navigation">
+            ☰
+        </button>
+
+        <nav class="main-nav"
+             id="primary-navigation"
+             aria-label="Main navigation">
+
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/about}">About</a>
+            <a th:href="@{/our-story}">Our Story</a>
+            <a th:href="@{/women}">Women Behind Safewell</a>
+            <a th:href="@{/manufacturing}">Manufacturing</a>
+            <a th:href="@{/product}">Our Product</a>
+            <a th:href="@{/impact}">Our Impact</a>
+
+            <a th:href="@{/partnerships}"
+               class="nav-cta">
+                Partner with us <span aria-hidden="true">↗</span>
+            </a>
+
+        </nav>
+
+    </div>
+</header>
