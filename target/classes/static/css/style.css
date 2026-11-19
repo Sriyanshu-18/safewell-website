@@ -2652,4 +2652,87 @@ blockquote p {
     }
 }
 
+/* =========================================
+   MOBILE NAVIGATION FIX
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    .site-header {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .nav-wrap {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* Hamburger button */
+    .menu-toggle {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        color: #8e2458;
+        font-size: 32px;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 1002;
+    }
+
+    /* Hidden navigation by default */
+    .main-nav {
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        background: #fffcf8;
+        padding: 15px 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+        z-index: 1001;
+    }
+
+    /* Show navigation when hamburger is clicked */
+    .main-nav.nav-open {
+        display: flex !important;
+    }
+
+    .main-nav a {
+        display: block;
+        width: 100%;
+        padding: 15px 10px;
+        border-bottom: 1px solid rgba(142, 36, 88, 0.12);
+        text-decoration: none;
+    }
+
+    .main-nav a:last-child {
+        border-bottom: none;
+    }
+
+    .main-nav .nav-cta {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/* Desktop navigation */
+@media (min-width: 901px) {
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+    .main-nav {
+        display: flex !important;
+    }
+}
 
