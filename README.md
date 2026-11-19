@@ -1,71 +1,181 @@
-# Safewell Brand Website
+# Safewell – Women's Hygiene & Empowerment Website
 
-A responsive brand-storytelling website for **Safewell**, a sanitary pad brand of **S.S. Industries**, owned by proprietor **Anjana Sahoo**. The manufacturing unit is in Jagatsinghpur, Odisha.
+Safewell is a brand website for sanitary napkins that showcases the product, the story behind the brand, its manufacturing process, and its social impact. The website highlights the role of women from Self-Help Groups (SHGs) in Odisha who are involved in the manufacturing, packaging, and production activities.
 
-This is **not an e-commerce website**. It is intended to tell the brand story, present product details, recognise the women employees, and invite retail/institutional partnership enquiries.
+The project focuses on creating a clean, responsive, and informative digital presence for the brand while promoting women's empowerment, menstrual hygiene awareness, and community development.
 
-## Tech stack
-- Java 21
-- Spring Boot 3.5.7
+---
+
+## 🌸 About Safewell
+
+Safewell is a sanitary napkin brand manufactured by **S.S. Industries**, with a mission to make menstrual hygiene products accessible while creating employment opportunities for women.
+
+The website tells the story of the brand, its manufacturing process, the people behind the product, and its commitment to social empowerment.
+
+---
+
+## ✨ Features
+
+- 🏠 **Home Page** – Introduction to the Safewell brand and its mission.
+- 📖 **Our Story** – Information about the brand's vision, background, and purpose.
+- 🏭 **Manufacturing Process** – A look into the manufacturing and packaging process.
+- 👩‍🏭 **Women Empowerment** – Highlights the contribution of women workers and SHG members.
+- 🌱 **Social Impact** – Showcases the brand's commitment to community development and women's employment.
+- 🩸 **Product Information** – Details about Safewell sanitary napkins.
+- 🤝 **Partnerships** – Information about collaborations and opportunities.
+- 📱 **Responsive Design** – Designed to provide a user-friendly experience across different screen sizes.
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Java
+- Spring Boot
 - Spring MVC
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
 - Thymeleaf
-- HTML, CSS and JavaScript
+
+### Tools
+- Eclipse IDE
+- Git
+- GitHub
 - Maven
 
-## Pages included
-- Home
-- About Safewell
-- Our Story
-- Women Behind Safewell
-- Manufacturing
-- Product
-- Impact
-- Retail & Institutional Partnerships
-- Contact
+---
 
-## Run locally in Eclipse
-1. Extract this ZIP to a folder.
-2. Open Eclipse and choose **File → Import → Maven → Existing Maven Projects**.
-3. Select the extracted `safewell-website` folder and finish the import.
-4. Confirm Eclipse is using **JDK 21**. If necessary: **Window → Preferences → Java → Installed JREs**.
-5. Wait for Maven dependencies to finish downloading.
-6. Open `src/main/java/com/safewell/SafewellApplication.java`.
-7. Right-click → **Run As → Java Application** (or Spring Boot App if Spring Tools is installed).
-8. Open `http://localhost:8080` in your browser.
+## 📂 Project Structure
 
-## Before launch — important checklist
-This project deliberately uses labelled placeholders rather than invented company assets or claims.
+```text
+Safewell/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── ...
+│       │
+│       └── resources/
+│           ├── static/
+│           │   ├── css/
+│           │   ├── js/
+│           │   └── images/
+│           │
+│           ├── templates/
+│           │   ├── index.html
+│           │   ├── story.html
+│           │   ├── manufacturing.html
+│           │   └── ...
+│           │
+│           └── application.properties
+│
+├── pom.xml
+└── README.md
+```
 
-1. Replace the temporary “S” brand mark with the official Safewell logo.
-2. Replace all image placeholders with real photos of the product, manufacturing unit and team. Obtain permission before publishing employee photos or stories.
-3. Replace the illustrated product packet with a clear photograph of the actual Safewell packet.
-4. Add the official business phone, email and/or WhatsApp number to the Contact page.
-5. Confirm the exact wording and provider for the **Sanitary Napkin Manufacturing Project** training.
-6. Ask the proprietor to approve the story, business details and any mention of Tejaswinee Charitable Trust before publication.
-7. Add verified product packaging, specifications and any supported manufacturing/quality information. Do not publish unverified certifications or health claims.
-8. Confirm the current official tagline, if any. “Care with purpose” is currently a design phrase, not a confirmed registered/official tagline.
+---
 
-## Current limitations
-- No database is configured.
-- There is no admin dashboard or content management system.
-- The contact page is informational only; it does not send or store enquiries yet.
-- Google Fonts require an internet connection; system fallbacks are included.
-- The CSS product packet is only a mock-up and must not be presented as the actual packaging.
+## 🚀 Getting Started
 
-## Routes
-- `/`
-- `/about`
-- `/our-story`
-- `/women`
-- `/manufacturing`
-- `/product`
-- `/impact`
-- `/partnerships`
-- `/contact`
+### Prerequisites
 
-## Suggested next steps
-1. Replace the placeholders and confirm copy.
-2. Add a working enquiry method (business email/WhatsApp, or a validated form with email delivery).
-3. Test on mobile and desktop.
-4. Put the project in Git/GitHub.
-5. Deploy to a Java-hosting provider and connect a custom domain with HTTPS. Deployment will require your own hosting/domain account and configuration.
+Make sure you have the following installed:
+
+- Java JDK 17 or later
+- Maven
+- Git
+- An IDE such as Eclipse or IntelliJ IDEA
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Sriyanshu-18/safewell-website.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd safewell-website
+```
+
+### Run the Application
+
+Using Maven:
+
+```bash
+mvn spring-boot:run
+```
+
+Alternatively, run the main Spring Boot application class directly from your IDE.
+
+### Access the Website
+
+Once the application starts, open your browser and visit:
+
+```text
+http://localhost:8080
+```
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to build a digital platform that:
+
+- Establishes an online presence for the Safewell brand.
+- Provides information about menstrual hygiene products.
+- Showcases the manufacturing and packaging process.
+- Highlights women's participation in production and employment.
+- Promotes awareness of menstrual hygiene.
+- Communicates the brand's social impact and vision.
+
+---
+
+## 👩‍💼 About the Organization
+
+**S.S. Industries**  
+Manufacturer of Safewell sanitary napkins  
+Jagatsinghpur, Odisha, India
+
+The organization aims to combine product manufacturing with community development by creating employment opportunities and supporting women associated with Self-Help Groups.
+
+---
+
+## 📸 Website Preview
+
+_Add screenshots of the website here._
+
+<!-- Example:
+
+![Safewell Homepage](screenshots/homepage.png)
+
+-->
+
+---
+
+## 🌍 Deployment
+
+The website is intended to be deployed online so that it can be accessed publicly.
+
+Deployment platform: **Render**
+
+Live Website: _Coming Soon_
+
+---
+
+## 👨‍💻 Developer
+
+Developed as a full-stack web development project using Java, Spring Boot, HTML, CSS, JavaScript, and Thymeleaf.
+
+---
+
+## 📄 License
+
+This project is developed for the Safewell brand and its digital presence.
+
+---
+
+**Safewell – Empowering Women. Promoting Hygiene. Building a Better Tomorrow.** 🌸
